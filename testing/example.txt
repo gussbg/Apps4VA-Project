@@ -1,0 +1,22 @@
+Example README file for CS 474 svn lab. Each team member should edit one of the
+four sections below. No two people should edit the same line of text. The goal
+is to practice committing/updating changes to/from your svn repository.
+
+
+==== Student 1 ====
+
+
+
+==== Student 2 ====
+
+
+
+==== Student 3 ====
+
+This is a test
+
+
+
+==== Student 4 ====
+
+

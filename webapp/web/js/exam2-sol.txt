@@ -1,0 +1,718 @@
+QUERY #1
+
+CHANGE #1
+
+CHANGE #2
+
+CHANGE #3
+
+RESULTS
+
+ age |    workclass     | fnlweight |  education   | edu_years |      marital       |    occupation    |  relationship  |        race        |  sex   | capital_gain | capital_loss | hours_week |    native     | income 
+-----+------------------+-----------+--------------+-----------+--------------------+------------------+----------------+--------------------+--------+--------------+--------------+------------+---------------+--------
+  24 | Self-emp-not-inc |     31606 | Bachelors    |        13 | Married-civ-spouse | Prof-specialty   | Other-relative | White              | Female |            0 |            0 |         20 | United-States | >50K
+  23 | Self-emp-not-inc |     40323 | Some-college |        10 | Married-civ-spouse | Craft-repair     | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  25 | Private          |     48029 | Some-college |        10 | Married-civ-spouse | Exec-managerial  | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  22 | ?                |     52596 | Some-college |        10 |                    | ?                | Own-child      | White              | Male   |            0 |            0 |         15 | ?             | >50K
+  22 | Private          |     54164 | HS-grad      |         9 |                    | Other-service    | Not-in-family  | White              | Male   |        14084 |            0 |         60 | United-States | >50K
+  25 | Private          |     72887 | 11th         |         7 | Married-civ-spouse | Craft-repair     | Husband        | Asian-Pac-Islander | Male   |            0 |            0 |         40 | Philippines   | >50K
+  25 | State-gov        |     77661 | Bachelors    |        13 |                    | Exec-managerial  | Not-in-family  | White              | Female |            0 |         2444 |         40 | United-States | >50K
+  23 | State-gov        |     89285 | Some-college |        10 |                    | Protective-serv  | Not-in-family  | Other              | Female |        99999 |            0 |         40 | United-States | >50K
+  25 | Private          |    109419 | Some-college |        10 |                    | Exec-managerial  | Not-in-family  | White              | Female |         8614 |            0 |         45 | United-States | >50K
+  24 | Local-gov        |    115222 | Masters      |        14 |                    | Prof-specialty   | Not-in-family  | White              | Male   |        10520 |            0 |         40 | United-States | >50K
+  25 | State-gov        |    120268 | Some-college |        10 | Married-civ-spouse | Craft-repair     | Own-child      | White              | Male   |            0 |            0 |         50 | United-States | >50K
+  25 | Private          |    133373 | Bachelors    |        13 |                    | Sales            | Own-child      | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  19 | Private          |    142738 | Some-college |        10 |                    | Prof-specialty   | Own-child      | White              | Female |        14084 |            0 |         20 | United-States | >50K
+  21 | Private          |    145964 | Some-college |        10 | Married-civ-spouse | Craft-repair     | Husband        | White              | Male   |         7298 |            0 |         60 | United-States | >50K
+  23 | Private          |    152328 | Bachelors    |        13 |                    | Prof-specialty   | Own-child      | White              | Male   |        13550 |            0 |         50 | United-States | >50K
+  25 | Private          |    166977 | Bachelors    |        13 | Married-civ-spouse | Prof-specialty   | Wife           | White              | Female |            0 |         1887 |         40 | United-States | >50K
+  25 | Local-gov        |    170070 | Bachelors    |        13 |                    | Prof-specialty   | Not-in-family  | White              | Female |            0 |            0 |         50 | United-States | >50K
+  24 | Private          |    176566 | Assoc-acdm   |        12 | Married-civ-spouse | Prof-specialty   | Wife           | White              | Female |         3103 |            0 |         40 | United-States | >50K
+  25 | ?                |    182810 | Some-college |        10 |                    | ?                | Not-in-family  | White              | Female |            0 |         1564 |         37 | United-States | >50K
+  22 | Private          |    185582 | Some-college |        10 |                    | Sales            | Not-in-family  | White              | Male   |            0 |            0 |         25 | United-States | >50K
+  21 | Private          |    186087 | Bachelors    |        13 |                    | Prof-specialty   | Not-in-family  | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  24 | Private          |    188569 | Masters      |        14 |                    | Exec-managerial  | Own-child      | White              | Female |         4787 |            0 |         60 | United-States | >50K
+  25 | Private          |    190107 | HS-grad      |         9 | Married-civ-spouse | Craft-repair     | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  24 | Private          |    194829 | HS-grad      |         9 | Married-civ-spouse | Craft-repair     | Husband        | White              | Male   |            0 |            0 |         45 | United-States | >50K
+  24 | Private          |    196943 | Assoc-voc    |        11 | Married-civ-spouse | Prof-specialty   | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  25 | Private          |    202480 | Bachelors    |        13 | Married-civ-spouse | Prof-specialty   | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  25 | Private          |    203561 | Assoc-voc    |        11 | Married-civ-spouse | Tech-support     | Husband        | White              | Male   |            0 |            0 |         56 | United-States | >50K
+  25 | Private          |    205337 | Bachelors    |        13 | Married-civ-spouse | Sales            | Husband        | White              | Male   |            0 |            0 |         50 | United-States | >50K
+  24 | Private          |    209417 | Some-college |        10 | Married-civ-spouse | Sales            | Husband        | White              | Male   |         7298 |            0 |         60 | United-States | >50K
+  24 | Private          |    211129 | Bachelors    |        13 |                    | Exec-managerial  | Other-relative | White              | Female |            0 |            0 |         60 | United-States | >50K
+  23 | Self-emp-inc     |    216889 | HS-grad      |         9 | Married-civ-spouse | Sales            | Husband        | White              | Male   |            0 |         1977 |         40 | United-States | >50K
+  25 | Private          |    223426 | Assoc-voc    |        11 |                    | Sales            | Not-in-family  | White              | Male   |            0 |            0 |         65 | Canada        | >50K
+  21 | Private          |    227307 | HS-grad      |         9 | Married-civ-spouse | Adm-clerical     | Wife           | White              | Female |            0 |            0 |         43 | United-States | >50K
+  23 | Private          |    233280 | Bachelors    |        13 | Divorced           | Adm-clerical     | Not-in-family  | White              | Female |         8614 |            0 |         70 | United-States | >50K
+  24 | Private          |    236427 | Some-college |        10 | Married-civ-spouse | Adm-clerical     | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  23 | Private          |    239539 | Some-college |        10 |                    | Craft-repair     | Own-child      | Asian-Pac-Islander | Male   |            0 |            0 |         40 | ?             | >50K
+  22 | Local-gov        |    249727 | Some-college |        10 | Married-civ-spouse | Protective-serv  | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  25 | Private          |    250038 | HS-grad      |         9 | Married-civ-spouse | Adm-clerical     | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  25 | Private          |    262617 | Bachelors    |        13 | Married-civ-spouse | Adm-clerical     | Husband        | White              | Male   |            0 |            0 |         55 | United-States | >50K
+  23 | Private          |    271354 | HS-grad      |         9 | Married-civ-spouse | Transport-moving | Husband        | White              | Male   |            0 |         1902 |         50 | United-States | >50K
+  25 | Private          |    281627 | Bachelors    |        13 |                    | Tech-support     | Not-in-family  | White              | Female |            0 |         1564 |         30 | United-States | >50K
+  25 | Local-gov        |    306352 | HS-grad      |         9 | Married-civ-spouse | Protective-serv  | Husband        | White              | Male   |            0 |         1902 |         40 | Mexico        | >50K
+  25 | Private          |    307643 | Assoc-acdm   |        12 | Married-civ-spouse | Craft-repair     | Husband        | White              | Male   |         3103 |            0 |         45 | United-States | >50K
+  23 | Private          |    308647 | Assoc-voc    |        11 | Married-civ-spouse | Tech-support     | Husband        | White              | Male   |            0 |         1887 |         40 | United-States | >50K
+  24 | Private          |    313956 | Bachelors    |        13 | Married-civ-spouse | Prof-specialty   | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  25 | State-gov        |    319303 | Some-college |        10 | Divorced           | Other-service    | Unmarried      | White              | Male   |            0 |         2472 |         40 | United-States | >50K
+  24 | Private          |    321435 | Bachelors    |        13 | Married-civ-spouse | Farming-fishing  | Husband        | White              | Male   |            0 |            0 |         35 | United-States | >50K
+  20 | Private          |    325033 | 12th         |         8 |                    | Other-service    | Own-child      | Black              | Male   |            0 |            0 |         35 | United-States | >50K
+  23 | Private          |    325179 | HS-grad      |         9 | Married-civ-spouse | Sales            | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  25 | Private          |    332409 | Assoc-voc    |        11 | Married-civ-spouse | Craft-repair     | Husband        | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  25 | Private          |    350850 | 7th-8th      |         4 | Married-civ-spouse | Farming-fishing  | Husband        | White              | Male   |            0 |            0 |         50 | United-States | >50K
+  24 | Local-gov        |    354351 | HS-grad      |         9 | Married-civ-spouse | Craft-repair     | Husband        | White              | Male   |            0 |            0 |         60 | United-States | >50K
+  24 | Private          |    360077 | 11th         |         7 |                    | Prof-specialty   | Own-child      | White              | Male   |            0 |            0 |         40 | United-States | >50K
+  23 | Private          |    442359 | HS-grad      |         9 |                    | Sales            | Own-child      | White              | Female |         8614 |            0 |         15 | United-States | >50K
+  25 | Private          |    629900 | Bachelors    |        13 | Married-civ-spouse | Prof-specialty   | Wife           | Black              | Female |            0 |            0 |         40 | United-States | >50K
+(55 rows)
+
+QUERY #2
+
+          n_name           | count 
+---------------------------+-------
+ IRAQ                      |   438
+ PERU                      |   421
+ ALGERIA                   |   420
+ EGYPT                     |   415
+ INDIA                     |   415
+ ARGENTINA                 |   413
+ CANADA                    |   412
+ SAUDI ARABIA              |   411
+ CHINA                     |   407
+ MOZAMBIQUE                |   406
+ INDONESIA                 |   405
+ FRANCE                    |   402
+ RUSSIA                    |   401
+ VIETNAM                   |   399
+ ROMANIA                   |   398
+ BRAZIL                    |   397
+ GERMANY                   |   396
+ IRAN                      |   393
+ UNITED STATES             |   393
+ UNITED KINGDOM            |   390
+ ETHIOPIA                  |   380
+ JAPAN                     |   377
+ KENYA                     |   376
+ MOROCCO                   |   373
+ JORDAN                    |   362
+(25 rows)
+
+QUERY #3
+
+ c_custkey |       c_name       
+-----------+--------------------
+         3 | Customer#000000003
+         6 | Customer#000000006
+         9 | Customer#000000009
+        12 | Customer#000000012
+        15 | Customer#000000015
+        18 | Customer#000000018
+        21 | Customer#000000021
+        24 | Customer#000000024
+        27 | Customer#000000027
+        30 | Customer#000000030
+        33 | Customer#000000033
+        36 | Customer#000000036
+        39 | Customer#000000039
+        42 | Customer#000000042
+        45 | Customer#000000045
+        48 | Customer#000000048
+        51 | Customer#000000051
+        54 | Customer#000000054
+        57 | Customer#000000057
+        60 | Customer#000000060
+        63 | Customer#000000063
+        66 | Customer#000000066
+        69 | Customer#000000069
+        72 | Customer#000000072
+        75 | Customer#000000075
+        78 | Customer#000000078
+        81 | Customer#000000081
+        84 | Customer#000000084
+        87 | Customer#000000087
+        90 | Customer#000000090
+        93 | Customer#000000093
+        96 | Customer#000000096
+        99 | Customer#000000099
+       102 | Customer#000000102
+       105 | Customer#000000105
+       108 | Customer#000000108
+       111 | Customer#000000111
+       114 | Customer#000000114
+       117 | Customer#000000117
+       120 | Customer#000000120
+       123 | Customer#000000123
+       126 | Customer#000000126
+       129 | Customer#000000129
+       132 | Customer#000000132
+       135 | Customer#000000135
+       138 | Customer#000000138
+       141 | Customer#000000141
+       144 | Customer#000000144
+       147 | Customer#000000147
+       150 | Customer#000000150
+       153 | Customer#000000153
+       156 | Customer#000000156
+       159 | Customer#000000159
+       162 | Customer#000000162
+       165 | Customer#000000165
+       168 | Customer#000000168
+       171 | Customer#000000171
+       174 | Customer#000000174
+       177 | Customer#000000177
+       180 | Customer#000000180
+       183 | Customer#000000183
+       186 | Customer#000000186
+       189 | Customer#000000189
+       192 | Customer#000000192
+       195 | Customer#000000195
+       198 | Customer#000000198
+       201 | Customer#000000201
+       204 | Customer#000000204
+       207 | Customer#000000207
+       210 | Customer#000000210
+       213 | Customer#000000213
+       216 | Customer#000000216
+       219 | Customer#000000219
+       222 | Customer#000000222
+       225 | Customer#000000225
+       228 | Customer#000000228
+       231 | Customer#000000231
+       234 | Customer#000000234
+       237 | Customer#000000237
+       240 | Customer#000000240
+       243 | Customer#000000243
+       246 | Customer#000000246
+       249 | Customer#000000249
+       252 | Customer#000000252
+       255 | Customer#000000255
+       258 | Customer#000000258
+       261 | Customer#000000261
+       264 | Customer#000000264
+       267 | Customer#000000267
+       270 | Customer#000000270
+       273 | Customer#000000273
+       276 | Customer#000000276
+       279 | Customer#000000279
+       282 | Customer#000000282
+       285 | Customer#000000285
+       288 | Customer#000000288
+       291 | Customer#000000291
+       294 | Customer#000000294
+       297 | Customer#000000297
+       300 | Customer#000000300
+       303 | Customer#000000303
+       306 | Customer#000000306
+       309 | Customer#000000309
+       312 | Customer#000000312
+       315 | Customer#000000315
+       318 | Customer#000000318
+       321 | Customer#000000321
+       324 | Customer#000000324
+       327 | Customer#000000327
+       330 | Customer#000000330
+       333 | Customer#000000333
+       336 | Customer#000000336
+       339 | Customer#000000339
+       342 | Customer#000000342
+       345 | Customer#000000345
+       348 | Customer#000000348
+       351 | Customer#000000351
+       354 | Customer#000000354
+       357 | Customer#000000357
+       360 | Customer#000000360
+       363 | Customer#000000363
+       366 | Customer#000000366
+       369 | Customer#000000369
+       372 | Customer#000000372
+       375 | Customer#000000375
+       378 | Customer#000000378
+       381 | Customer#000000381
+       384 | Customer#000000384
+       387 | Customer#000000387
+       390 | Customer#000000390
+       393 | Customer#000000393
+       396 | Customer#000000396
+       399 | Customer#000000399
+       402 | Customer#000000402
+       405 | Customer#000000405
+       408 | Customer#000000408
+       411 | Customer#000000411
+       414 | Customer#000000414
+       417 | Customer#000000417
+       420 | Customer#000000420
+       423 | Customer#000000423
+       426 | Customer#000000426
+       429 | Customer#000000429
+       432 | Customer#000000432
+       435 | Customer#000000435
+       438 | Customer#000000438
+       441 | Customer#000000441
+       444 | Customer#000000444
+       447 | Customer#000000447
+       450 | Customer#000000450
+       453 | Customer#000000453
+       456 | Customer#000000456
+       459 | Customer#000000459
+       462 | Customer#000000462
+       465 | Customer#000000465
+       468 | Customer#000000468
+       471 | Customer#000000471
+       474 | Customer#000000474
+       477 | Customer#000000477
+       480 | Customer#000000480
+       483 | Customer#000000483
+       486 | Customer#000000486
+       489 | Customer#000000489
+       492 | Customer#000000492
+       495 | Customer#000000495
+       498 | Customer#000000498
+       501 | Customer#000000501
+       504 | Customer#000000504
+       507 | Customer#000000507
+       510 | Customer#000000510
+       513 | Customer#000000513
+       516 | Customer#000000516
+       519 | Customer#000000519
+       522 | Customer#000000522
+       525 | Customer#000000525
+       528 | Customer#000000528
+       531 | Customer#000000531
+       534 | Customer#000000534
+       537 | Customer#000000537
+       540 | Customer#000000540
+       543 | Customer#000000543
+       546 | Customer#000000546
+       549 | Customer#000000549
+       552 | Customer#000000552
+       555 | Customer#000000555
+       558 | Customer#000000558
+       561 | Customer#000000561
+       564 | Customer#000000564
+       567 | Customer#000000567
+       570 | Customer#000000570
+       573 | Customer#000000573
+       576 | Customer#000000576
+       579 | Customer#000000579
+       582 | Customer#000000582
+       585 | Customer#000000585
+       588 | Customer#000000588
+       591 | Customer#000000591
+       594 | Customer#000000594
+       597 | Customer#000000597
+       600 | Customer#000000600
+(200 rows)
+
+QUERY #4
+
+ ps_partkey | ps_supplycost 
+------------+---------------
+     199070 |        999.89
+      42280 |        998.58
+     135298 |        996.90
+      90692 |        996.87
+      46863 |        996.69
+     148506 |        996.41
+      89252 |        994.55
+     115190 |        994.38
+     151236 |        993.50
+      37754 |        993.46
+       9814 |        993.12
+     148641 |        992.59
+     119764 |        991.71
+     128030 |        991.70
+     109549 |        991.65
+      31033 |        990.14
+        536 |        989.85
+      77613 |        988.64
+       7357 |        988.29
+      41876 |        986.05
+     143546 |        984.60
+      13687 |        983.86
+      68668 |        982.55
+      10686 |        981.73
+      89540 |        980.82
+      53065 |        980.24
+      56154 |        978.55
+     104535 |        977.52
+       3714 |        974.72
+     149043 |        974.61
+      47677 |        974.58
+     128908 |        972.41
+      97789 |        971.47
+      79452 |        970.63
+      45015 |        968.89
+     129674 |        968.71
+     169735 |        968.02
+     123503 |        967.50
+      53642 |        967.14
+      84413 |        966.90
+     132738 |        965.73
+      43287 |        964.81
+      84984 |        963.61
+      64834 |        962.78
+       7552 |        958.84
+      74775 |        958.19
+      21552 |        957.95
+     133990 |        955.06
+      18716 |        954.84
+     105787 |        952.82
+      30693 |        952.05
+      70140 |        951.90
+     198398 |        951.68
+      17729 |        950.36
+      25070 |        949.98
+     156562 |        948.78
+      82213 |        945.78
+     133752 |        944.59
+     146034 |        943.47
+      57166 |        940.69
+      93976 |        940.26
+      10633 |        938.23
+      93858 |        937.95
+      72436 |        937.21
+      28495 |        935.87
+     110445 |        935.52
+     158549 |        934.75
+     167671 |        933.94
+      61170 |        933.08
+      89351 |        929.90
+     185931 |        928.51
+     186810 |        926.82
+     167197 |        925.73
+     126581 |        925.10
+     181269 |        924.85
+      87552 |        924.04
+      32904 |        923.88
+      73008 |        922.63
+      36924 |        922.44
+     131166 |        921.75
+      90165 |        920.95
+      71798 |        920.77
+      33928 |        920.71
+      85268 |        919.97
+     141970 |        919.28
+     158488 |        918.93
+     127167 |        918.52
+     128881 |        918.41
+      76774 |        918.12
+      55668 |        917.88
+      82994 |        915.58
+      47824 |        915.22
+     175099 |        914.67
+     125752 |        913.02
+     106268 |        912.50
+     119680 |        911.14
+     105882 |        911.12
+     161466 |        910.73
+      48100 |        907.76
+      86141 |        907.63
+      25504 |        907.24
+     195812 |        907.03
+     168423 |        904.55
+     179059 |        904.35
+      25838 |        904.13
+     178900 |        903.51
+     136214 |        902.70
+      95776 |        901.84
+     192947 |        899.22
+     199332 |        898.46
+     114633 |        895.87
+     166327 |        895.39
+     197322 |        895.01
+      33797 |        894.86
+      87653 |        894.28
+     194017 |        893.95
+     173627 |        889.84
+     126817 |        889.08
+     180260 |        887.45
+      65521 |        885.62
+      25843 |        885.40
+      31447 |        885.25
+      53689 |        883.98
+      54516 |        883.90
+     108717 |        883.79
+      52859 |        881.52
+     129222 |        880.14
+     163066 |        879.62
+      15617 |        879.59
+      36316 |        878.94
+      65445 |        877.81
+     157131 |        875.92
+      68676 |        874.00
+      72943 |        872.71
+      16676 |        871.88
+      33006 |        870.49
+     158099 |        869.40
+     101806 |        868.25
+      36681 |        866.13
+     194811 |        866.04
+     153938 |        863.04
+      69939 |        862.66
+     103650 |        862.45
+     180399 |        861.87
+      30266 |        861.75
+      20997 |        861.25
+      19669 |        859.10
+     184790 |        858.86
+     139133 |        857.77
+     135053 |        856.92
+      60131 |        856.73
+      82211 |        855.71
+     171952 |        855.58
+      44221 |        855.20
+     185595 |        854.22
+     172439 |        853.84
+     193335 |        853.71
+      71154 |        853.61
+       9461 |        853.51
+      58465 |        852.70
+     155851 |        852.08
+      90792 |        851.68
+      79419 |        850.82
+      43160 |        850.27
+     198615 |        849.48
+     148612 |        849.05
+      60479 |        845.92
+      23723 |        845.84
+      30057 |        845.83
+      33108 |        844.42
+      58772 |        843.85
+     102518 |        841.52
+     160407 |        840.85
+      27281 |        840.06
+      39925 |        839.49
+     176272 |        839.28
+      18193 |        839.27
+     100963 |        838.53
+      69698 |        834.86
+     120362 |        834.41
+      90512 |        833.98
+      38877 |        832.60
+      89243 |        832.50
+       6609 |        832.49
+     199875 |        832.39
+      20963 |        830.45
+      81132 |        828.82
+     164333 |        828.51
+      37698 |        827.88
+      75535 |        825.03
+     162337 |        823.80
+      11588 |        823.54
+     109742 |        823.39
+     199111 |        823.13
+      47070 |        820.83
+      92577 |        818.77
+      55109 |        818.73
+      20056 |        817.77
+      83779 |        816.65
+     198488 |        816.31
+(200 rows)
+
+QUERY #5
+
+ c_custkey |       c_name       |   avg_orderprice   
+-----------+--------------------+--------------------
+     43360 | Customer#000043360 | 28123.740000000000
+     77345 | Customer#000077345 | 28200.885000000000
+     83204 | Customer#000083204 | 41002.312500000000
+    145265 | Customer#000145265 | 42553.746000000000
+     12314 | Customer#000012314 | 47008.803333333333
+    113288 | Customer#000113288 | 49658.468000000000
+      9983 | Customer#000009983 | 52070.706666666667
+     45566 | Customer#000045566 | 52804.132500000000
+     22925 | Customer#000022925 | 52878.575000000000
+    132602 | Customer#000132602 | 53674.515000000000
+     73673 | Customer#000073673 | 54542.640000000000
+     18236 | Customer#000018236 | 56051.303333333333
+     42434 | Customer#000042434 | 56447.098571428571
+     67784 | Customer#000067784 | 60281.910000000000
+     64895 | Customer#000064895 | 61580.516250000000
+     46202 | Customer#000046202 | 62586.456666666667
+    111335 | Customer#000111335 | 62795.390000000000
+     95978 | Customer#000095978 | 63896.968000000000
+     75764 | Customer#000075764 | 64709.750000000000
+    137987 | Customer#000137987 | 65676.342000000000
+    124202 | Customer#000124202 | 65774.681250000000
+     42500 | Customer#000042500 | 65866.566666666667
+      2018 | Customer#000002018 | 66129.023333333333
+     11210 | Customer#000011210 | 66137.978333333333
+     15080 | Customer#000015080 | 67535.800000000000
+     76235 | Customer#000076235 | 68162.973333333333
+      3890 | Customer#000003890 | 68197.830000000000
+    109718 | Customer#000109718 | 68542.146666666667
+     88256 | Customer#000088256 | 68586.316363636364
+     55259 | Customer#000055259 | 69356.045714285714
+     37256 | Customer#000037256 | 69662.710909090909
+     30956 | Customer#000030956 | 69824.291818181818
+     81410 | Customer#000081410 | 70213.104000000000
+     25613 | Customer#000025613 | 70545.863636363636
+    125855 | Customer#000125855 | 70848.915714285714
+     38363 | Customer#000038363 | 71388.354615384615
+     97730 | Customer#000097730 | 71713.198000000000
+     23261 | Customer#000023261 | 71935.215714285714
+    100343 | Customer#000100343 | 72072.897777777778
+     72884 | Customer#000072884 | 72090.021250000000
+     26264 | Customer#000026264 | 72858.374285714286
+     83660 | Customer#000083660 | 73651.825000000000
+     30994 | Customer#000030994 | 73803.978888888889
+    130019 | Customer#000130019 | 74301.840000000000
+    141485 | Customer#000141485 | 74616.200000000000
+     30707 | Customer#000030707 | 74671.583333333333
+      5348 | Customer#000005348 | 75040.937142857143
+     81509 | Customer#000081509 | 75365.556666666667
+       392 | Customer#000000392 | 75456.966666666667
+     99443 | Customer#000099443 | 75933.858333333333
+    106055 | Customer#000106055 | 76179.417272727273
+    146114 | Customer#000146114 | 76403.496000000000
+      9500 | Customer#000009500 | 76683.626000000000
+    129482 | Customer#000129482 | 76739.260000000000
+      1595 | Customer#000001595 | 76926.710000000000
+     40490 | Customer#000040490 | 77419.790000000000
+     33200 | Customer#000033200 | 77514.196250000000
+      8591 | Customer#000008591 | 77579.813333333333
+      6935 | Customer#000006935 | 77666.996666666667
+     11366 | Customer#000011366 | 77792.260000000000
+    110648 | Customer#000110648 | 78022.122500000000
+     64493 | Customer#000064493 | 78114.365000000000
+     97994 | Customer#000097994 | 78336.520000000000
+     13430 | Customer#000013430 | 78342.300000000000
+     36815 | Customer#000036815 | 78502.448000000000
+     19145 | Customer#000019145 | 78719.733076923077
+    100001 | Customer#000100001 | 78906.948888888889
+     66389 | Customer#000066389 | 79206.677500000000
+     64112 | Customer#000064112 | 79591.687777777778
+     85904 | Customer#000085904 | 79678.661666666667
+    109016 | Customer#000109016 | 80245.992857142857
+     78203 | Customer#000078203 | 80760.620000000000
+     85856 | Customer#000085856 | 80814.257500000000
+    129422 | Customer#000129422 | 80865.600833333333
+     15938 | Customer#000015938 | 81090.139090909091
+     97052 | Customer#000097052 | 81170.617500000000
+    139382 | Customer#000139382 | 81229.342000000000
+     53032 | Customer#000053032 | 81232.844166666667
+    118034 | Customer#000118034 | 81430.508333333333
+     57731 | Customer#000057731 | 81859.036250000000
+    109796 | Customer#000109796 | 81922.690000000000
+    115628 | Customer#000115628 | 82202.042500000000
+     41807 | Customer#000041807 | 82202.153333333333
+    127835 | Customer#000127835 | 82384.983333333333
+    106249 | Customer#000106249 | 82501.025882352941
+     50489 | Customer#000050489 | 82536.747500000000
+     22199 | Customer#000022199 | 82650.263333333333
+    103628 | Customer#000103628 | 82803.543333333333
+    123200 | Customer#000123200 | 82823.650000000000
+     75542 | Customer#000075542 | 82859.205000000000
+     76043 | Customer#000076043 | 82906.378000000000
+     95432 | Customer#000095432 | 82921.484285714286
+    121469 | Customer#000121469 | 83072.205000000000
+     28040 | Customer#000028040 | 83165.377500000000
+     78593 | Customer#000078593 | 83208.014000000000
+    126416 | Customer#000126416 | 83265.793750000000
+    134735 | Customer#000134735 | 83279.488571428571
+     31667 | Customer#000031667 | 83297.893750000000
+    103919 | Customer#000103919 | 83318.263333333333
+     21518 | Customer#000021518 | 83414.744444444444
+    148496 | Customer#000148496 | 83419.378333333333
+     14258 | Customer#000014258 | 83511.270000000000
+    100310 | Customer#000100310 | 83518.064000000000
+    145640 | Customer#000145640 | 83535.358750000000
+     62768 | Customer#000062768 | 83628.413750000000
+     66242 | Customer#000066242 | 83779.848333333333
+     59735 | Customer#000059735 | 83811.534444444444
+     13502 | Customer#000013502 | 83882.098333333333
+     69005 | Customer#000069005 | 83886.795000000000
+    114257 | Customer#000114257 | 83943.240000000000
+     18398 | Customer#000018398 | 84012.694285714286
+     98555 | Customer#000098555 | 84073.840000000000
+    141938 | Customer#000141938 | 84172.580833333333
+    102191 | Customer#000102191 | 84329.395555555556
+    109562 | Customer#000109562 | 84351.251111111111
+    143003 | Customer#000143003 | 84518.571000000000
+     58910 | Customer#000058910 | 84761.652000000000
+     20549 | Customer#000020549 | 84817.974285714286
+     31171 | Customer#000031171 | 84953.970625000000
+     21878 | Customer#000021878 | 84995.165000000000
+     89956 | Customer#000089956 | 85128.085555555556
+     18077 | Customer#000018077 | 85159.918888888889
+     89423 | Customer#000089423 | 85429.404285714286
+     65687 | Customer#000065687 | 85583.315000000000
+    136051 | Customer#000136051 | 85627.716000000000
+     43679 | Customer#000043679 | 85769.793333333333
+     93488 | Customer#000093488 | 85967.138750000000
+      4406 | Customer#000004406 | 86070.016000000000
+     28097 | Customer#000028097 | 86116.034285714286
+    145433 | Customer#000145433 | 86196.964000000000
+     77210 | Customer#000077210 | 86199.044444444444
+     26696 | Customer#000026696 | 86321.255000000000
+    141230 | Customer#000141230 | 86597.647500000000
+     79058 | Customer#000079058 | 86655.859166666667
+    109550 | Customer#000109550 | 86659.048000000000
+    119438 | Customer#000119438 | 86675.742000000000
+     37112 | Customer#000037112 | 86774.410000000000
+    140870 | Customer#000140870 | 86786.518000000000
+    106760 | Customer#000106760 | 86794.296250000000
+     19876 | Customer#000019876 | 86940.928260869565
+    125168 | Customer#000125168 | 87151.837142857143
+    117941 | Customer#000117941 | 87153.538333333333
+      9260 | Customer#000009260 | 87192.353000000000
+     54953 | Customer#000054953 | 87215.672857142857
+    106084 | Customer#000106084 | 87245.406875000000
+     19316 | Customer#000019316 | 87281.341818181818
+     78467 | Customer#000078467 | 87290.748888888889
+     49541 | Customer#000049541 | 87323.677500000000
+    137699 | Customer#000137699 | 87375.574285714286
+     37826 | Customer#000037826 | 87412.133333333333
+    106700 | Customer#000106700 | 87637.757777777778
+     43955 | Customer#000043955 | 87649.916666666667
+     87358 | Customer#000087358 | 87800.467500000000
+     78710 | Customer#000078710 | 87831.520000000000
+     33746 | Customer#000033746 | 87843.293000000000
+     21887 | Customer#000021887 | 87846.047777777778
+     83489 | Customer#000083489 | 87848.222222222222
+    135857 | Customer#000135857 | 87892.368888888889
+     77114 | Customer#000077114 | 87978.465833333333
+    147671 | Customer#000147671 | 88190.383333333333
+     69989 | Customer#000069989 | 88349.991818181818
+     21935 | Customer#000021935 | 88403.124444444444
+     92561 | Customer#000092561 | 88419.078000000000
+     49724 | Customer#000049724 | 88501.063333333333
+     36371 | Customer#000036371 | 88591.306666666667
+     54215 | Customer#000054215 | 88612.021428571429
+    145465 | Customer#000145465 | 88672.406315789474
+    128237 | Customer#000128237 | 88741.502727272727
+     41534 | Customer#000041534 | 88814.488888888889
+     47290 | Customer#000047290 | 88911.643333333333
+    143168 | Customer#000143168 | 88963.531250000000
+       887 | Customer#000000887 | 89113.022307692308
+    149171 | Customer#000149171 | 89185.050000000000
+     78587 | Customer#000078587 | 89211.716250000000
+      2777 | Customer#000002777 | 89217.123333333333
+     62965 | Customer#000062965 | 89231.289285714286
+     22378 | Customer#000022378 | 89277.723333333333
+    123196 | Customer#000123196 | 89298.495000000000
+    103876 | Customer#000103876 | 89339.102352941176
+      6097 | Customer#000006097 | 89436.612173913043
+     75425 | Customer#000075425 | 89457.459090909091
+     23174 | Customer#000023174 | 89611.879444444444
+     25601 | Customer#000025601 | 89916.766666666667
+     29807 | Customer#000029807 | 90074.245000000000
+    137267 | Customer#000137267 | 90139.788000000000
+     42467 | Customer#000042467 | 90360.351428571429
+    142082 | Customer#000142082 | 90411.400000000000
+     66706 | Customer#000066706 | 90462.128181818182
+    114797 | Customer#000114797 | 90482.035000000000
+     70301 | Customer#000070301 | 90492.108181818182
+    134279 | Customer#000134279 | 90552.013333333333
+    104744 | Customer#000104744 | 90592.943333333333
+     40133 | Customer#000040133 | 90602.167777777778
+     46535 | Customer#000046535 | 90735.514000000000
+     24917 | Customer#000024917 | 90736.638750000000
+     21242 | Customer#000021242 | 90774.508181818182
+     63245 | Customer#000063245 | 90777.190000000000
+    110753 | Customer#000110753 | 90801.065000000000
+    105197 | Customer#000105197 | 90821.316250000000
+     66488 | Customer#000066488 | 90834.670000000000
+(200 rows)
+

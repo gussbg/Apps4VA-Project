@@ -1,0 +1,222 @@
+body{
+    background-image: url("js/Background.png");
+}
+
+body#chart {
+    background: rgb(230, 230, 255);
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid yellow;
+    background-color: black;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a, .dropbtn {
+    display: inline-block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Franklin Gothic", Verdana, sans;
+}
+
+.menu li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(102, 102, 153);
+}
+
+.menu li.dropdown {
+    display: inline-block;
+}
+
+.menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 2px solid yellow;
+}
+
+.menu .dropdown-content a {
+    color: yellow;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.menu .dropdown-content a:hover {background-color: rgb(102, 102, 153)}
+
+.menu .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.chartmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("js/Menu-Stars.jpeg");
+    border: 2px solid black;
+}
+
+.chartmenu li {
+    float: left;
+}
+
+.chartmenu li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.chartmenu li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(102, 102, 153);
+}
+
+.chartmenu li.dropdown {
+    display: inline-block;
+}
+
+.chartmenu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.chartmenu .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.chartmenu .dropdown-content a:hover {background-color: #f1f1f1}
+
+.chartmenu .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.title {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font-size: 15pt;
+    padding-top: 5px;
+}
+
+pre {
+    background-color: whitesmoke;
+}
+
+th {
+    padding: 5px;
+}
+
+table .even {
+}
+
+table .odd {
+    background-color: ghostwhite;
+}
+
+#box
+{
+    position: relative;
+    margin: auto;
+    width: 75%;
+    height: 75%;
+    padding: 16px;
+    border: 5px solid;
+    border-color: rgb(255, 255, 51);
+    background-color: rgb(255, 255, 204);
+    text-align: center;
+    overflow: auto;
+}
+
+.column1, .column2, .column3, .column4 {
+    width: 255px;
+    height: 400px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 10px;
+    float: left;
+    margin-right: 22px;
+}
+
+.column5 {
+    width: 255px;
+    height: 400px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 10px;
+    float: left;
+}
+
+
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
